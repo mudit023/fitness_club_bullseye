@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1{
+  margin-top: 10rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #363636;
+  width: 100%;
+}
+
+.card input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+}
+
+button, .ViewBtn{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #053254;
+  border: none;
+  padding: 1rem;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
